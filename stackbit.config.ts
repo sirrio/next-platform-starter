@@ -6,7 +6,7 @@ export default defineStackbitConfig({
     "nodeVersion": "18",
     "ssgName": "nextjs",
     "contentSources": [],
-    "postInstallCommand": "npm i --no-save @stackbit/types"
+    "postInstallCommand": "npm i --no-save @stackbit/types",
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
